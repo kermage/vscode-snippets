@@ -17,6 +17,10 @@
 			"			\"path\": \"wp-content/themes/${1:[THEME_SLUG]}\",",
 			"			\"name\": \"${2:[THEME_NAME]}\"",
 			"		},",
+			"		{",
+			"			\"path\": \"wp-content/plugins/${3:[PLUGIN_SLUG]}\",",
+			"			\"name\": \"${4:[PLUGIN_NAME]}\"",
+			"		},",
 			"	],",
 			"	\"settings\": {",
 			"		\"files.exclude\": {",
@@ -51,6 +55,7 @@
 			"			\"wp-content/themes/index.php\": true,",
 			"			\"wp-content/themes/twenty*\": true,",
 			"			\"${1:[THEME_SLUG]}\": true,",
+			"			\"${3:[PLUGIN_SLUG]}\": true,",
 			"		}",
 			"	}",
 			"}"
