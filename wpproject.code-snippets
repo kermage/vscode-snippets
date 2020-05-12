@@ -56,8 +56,10 @@
 			"			\"wp-content/themes/twenty*\": true,",
 			"			\"${1:[THEME_SLUG]}\": true,",
 			"			\"${3:[PLUGIN_SLUG]}\": true,",
-			"		}",
-			"	}",
+			"		},",
+			"		\"phpsab.composerJsonPath\": \"wp-content/themes/${1:[THEME_SLUG]}/composer.json\",
+			"		\"phpsab.standard\": \"wp-content/themes/${1:[THEME_SLUG]}/phpcs.xml\",
+			"	},",
 			"}"
 		],
 		"description": "Project Settings"
