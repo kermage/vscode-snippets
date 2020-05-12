@@ -51,7 +51,7 @@
 			"vendor/",
 			"",
 			"# Editor files",
-			"*.sublime*",
+			"*.sublime-workspace",
 			"sftp-config.json",
 			".history/",
 			".idea/",
