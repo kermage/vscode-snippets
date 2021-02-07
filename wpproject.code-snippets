@@ -1,5 +1,6 @@
 {
 	"Project Settings": {
+		"scope": "jsonc",
 		"prefix": "wp",
 		"body": [
 			"{",
