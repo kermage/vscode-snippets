@@ -5,5 +5,22 @@
 			"<?php $1 ?>"
 		],
 		"description": "Expand PHP Tags"
+	},
+	"Pretty Dump Variable": {
+		"prefix": "dump",
+		"body": [
+			"echo '<pre>';",
+			"var_dump( $${variable} );",
+			"echo '</pre>';"
+		],
+		"description": "Pretty Dump Variable"
+	},
+	"Error Log Output": {
+		"prefix": "log",
+		"body": [
+			"error_log( __METHOD__ );",
+			"error_log( print_r( $${variable}, true ) );"
+		],
+		"description": "Error Log Output"
 	}
 }
