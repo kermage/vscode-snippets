@@ -8,6 +8,7 @@
 			"",
 			"# OS generated files",
 			"._*",
+			".DS_Store",
 			".Spotlight-V100",
 			".Trashes",
 			"Desktop.ini",
